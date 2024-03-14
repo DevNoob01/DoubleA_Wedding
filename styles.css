@@ -105,6 +105,10 @@ body, html {
     text-align: center;
 }
 
+#page3 h3{
+    text-align: center;
+}
+
 #page3 {
     background-color: #FFF; /* Optional: Add background color */
 }
