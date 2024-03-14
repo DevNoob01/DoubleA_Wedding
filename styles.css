@@ -4,26 +4,6 @@ body, html {
     padding: 0;
 }
 
-h1 {
-    font-size: 5em; /* 40px/16=2.5em */
-    font-family: 'Madimi One', sans-serif;
-}
-  
-h2 {
-    font-size: 1.875em; /* 30px/16=1.875em */
-    font-family: 'Madimi One', sans-serif;  
-}
-
-h3 {
-    font-size: 1em; /* 30px/16=1.875em */
-    font-family: 'Madimi One', sans-serif;  
-}
-  
-p {
-    font-size: 0.875em; /* 14px/16=0.875em */
-    font-family: 'Madimi One', sans-serif;
-}
-
 .madimi-one-regular {
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
@@ -153,8 +133,45 @@ p {
 
 @media screen and (max-width: 768px) {
     h1 {
-    font-size: 2em; /* 40px/16=2.5em */
-    font-family: 'Madimi One', sans-serif;
+        font-size: 2.5em; /* 40px/16=2.5em */
+        font-family: 'Madimi One', sans-serif;
+    }
+      
+    h2 {
+        font-size: 1.5em; /* 30px/16=1.875em */
+        font-family: 'Madimi One', sans-serif;  
+    }
+    
+    h3 {
+        font-size: 1em; /* 30px/16=1.875em */
+        font-family: 'Madimi One', sans-serif;  
+    }
+      
+    p {
+        font-size: 0.875em; /* 14px/16=0.875em */
+        font-family: 'Madimi One', sans-serif;
+    }
 }
+
+@media screen and (min-width: 769px) {
+    h1 {
+        font-size: 5em; /* 40px/16=2.5em */
+        font-family: 'Madimi One', sans-serif;
+    }
+      
+    h2 {
+        font-size: 1.875em; /* 30px/16=1.875em */
+        font-family: 'Madimi One', sans-serif;  
+    }
+    
+    h3 {
+        font-size: 1em; /* 30px/16=1.875em */
+        font-family: 'Madimi One', sans-serif;  
+    }
+      
+    p {
+        font-size: 0.875em; /* 14px/16=0.875em */
+        font-family: 'Madimi One', sans-serif;
+    }
 }
 
