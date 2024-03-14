@@ -1,0 +1,152 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5em; /* 40px/16=2.5em */
+    font-family: 'Madimi One', sans-serif;
+}
+  
+h2 {
+    font-size: 1.875em; /* 30px/16=1.875em */
+    font-family: 'Madimi One', sans-serif;  
+}
+
+h3 {
+    font-size: 1em; /* 30px/16=1.875em */
+    font-family: 'Madimi One', sans-serif;  
+}
+  
+p {
+    font-size: 0.875em; /* 14px/16=0.875em */
+    font-family: 'Madimi One', sans-serif;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+/* Container for the entire webpage */
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent; /* Adjust as needed */
+    z-index: 1000; /* Ensures navbar is on top of other elements */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Hamburger menu styles */
+.hamburger-menu {
+    cursor: pointer;
+    /* Add hamburger icon styling here */
+}
+
+/* Menu styles */
+.menu {
+    display: none; /* Initially hide the menu */
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust menu item color */
+    font-size: 2em;
+}
+
+/* Page styles */
+.page {
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+}
+
+/* Adjust specific page styles */
+#page1 {
+    background-image: url('MAY_3433_mod2.jpg');
+    background-size: 100% 100%; ; /* Scale the background image as large as possible */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+/* Position the text in the lower-left corner */
+#page1 .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px; /* Add padding to the text */
+}
+
+/* Right-align the text */
+#page1 h1, h2 {
+    text-align: left;
+}
+
+#page2 {
+    background-image: url('Page2_2.jpg');
+    background-size: 100% 100%; ; /* Scale the background image as large as possible */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+#page2 h2{
+    text-align: center;
+}
+
+#page3 {
+    background-color: #FFF; /* Optional: Add background color */
+}
+
+/* Responsive styles */
+/* Adjust navbar styles for smaller screens */
+.navbar {
+    padding: 10px;
+}
+
+/* Display hamburger menu on smaller screens */
+.menu {
+    display: block;
+}
+
+/* Hide menu items by default on smaller screens */
+.menu ul {
+    display: none;
+}
+
+/* Show menu items when hamburger menu is clicked */
+.menu.active ul {
+    display: block;
+}
+
