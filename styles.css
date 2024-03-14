@@ -5,7 +5,7 @@ body, html {
 }
 
 h1 {
-    font-size: 3em; /* 40px/16=2.5em */
+    font-size: 5em; /* 40px/16=2.5em */
     font-family: 'Madimi One', sans-serif;
 }
   
@@ -148,5 +148,13 @@ p {
 /* Show menu items when hamburger menu is clicked */
 .menu.active ul {
     display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+    font-size: 2em; /* 40px/16=2.5em */
+    font-family: 'Madimi One', sans-serif;
+}
 }
 
